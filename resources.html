@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Hong's English Class</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .resource-list {
+            list-style: none;
+        }
+
+        .resource-item {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: transform 0.2s;
+        }
+
+        .resource-item:hover {
+            transform: translateX(5px);
+        }
+
+        .res-info h4 {
+            margin-bottom: 0.3rem;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+
+        .res-info p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .res-icon {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-right: 1.5rem;
+            width: 40px;
+            text-align: center;
+        }
+
+        .visit-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .visit-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fas fa-graduation-cap"></i> Hong's English
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notices.html">Notices</a></li>
+                <li><a href="materials.html">Materials</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+            <h2 class="page-title">Useful Resources</h2>
+            <p>영어 학습에 도움이 되는 사이트입니다.</p>
+        </div>
+
+        <ul class="resource-list">
+            <li class="resource-item">
+                <div style="display:flex; align-items:center;">
+                    <div class="res-icon"><i class="fas fa-book-reader"></i></div>
+                    <div class="res-info">
+                        <h4>Naver English Dictionary</h4>
+                        <p>The most comprehensive English-Korean dictionary.</p>
+                    </div>
+                </div>
+                <a href="https://en.dict.naver.com/" target="_blank" class="visit-btn">Visit <i
+                        class="fas fa-external-link-alt"></i></a>
+            </li>
+
+            <li class="resource-item">
+                <div style="display:flex; align-items:center;">
+                    <div class="res-icon"><i class="fab fa-youtube"></i></div>
+                    <div class="res-info">
+                        <h4>TED Talks</h4>
+                        <p>Inspirting talks to practice listening and expand knowledge.</p>
+                    </div>
+                </div>
+                <a href="https://www.ted.com" target="_blank" class="visit-btn">Visit <i
+                        class="fas fa-external-link-alt"></i></a>
+            </li>
+
+            <li class="resource-item">
+                <div style="display:flex; align-items:center;">
+                    <div class="res-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="res-info">
+                        <h4>Breaking News English</h4>
+                        <p>News articles adapted for various English levels.</p>
+                    </div>
+                </div>
+                <a href="https://breakingnewsenglish.com/" target="_blank" class="visit-btn">Visit <i
+                        class="fas fa-external-link-alt"></i></a>
+            </li>
+
+            <li class="resource-item">
+                <div style="display:flex; align-items:center;">
+                    <div class="res-icon"><i class="fas fa-spell-check"></i></div>
+                    <div class="res-info">
+                        <h4>Grammarly</h4>
+                        <p>AI writing assistant for checking grammar and spelling.</p>
+                    </div>
+                </div>
+                <a href="https://www.grammarly.com/" target="_blank" class="visit-btn">Visit <i
+                        class="fas fa-external-link-alt"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Hwanil High School - Grade 2 English | Teacher: Hong Jeong-hye</p>
+    </footer>
+
+</body>
+
+</html>

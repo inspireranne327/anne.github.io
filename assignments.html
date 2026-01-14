@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments - Hong's English Class</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .status-badge {
+            float: right;
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .status-active {
+            background-color: #4CAF50;
+        }
+
+        .status-closed {
+            background-color: #9E9E9E;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fas fa-graduation-cap"></i> Hong's English
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notices.html">Notices</a></li>
+                <li><a href="materials.html">Materials</a></li>
+                <li><a href="assignments.html" class="active">Assignments</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+            <h2 class="page-title">Assignments & Projects</h2>
+            <p>과제 제출 기한을 엄수해주세요.</p>
+        </div>
+
+        <div class="task-card">
+            <span class="status-badge status-active">In Progress</span>
+            <h3>Writing Project: My Role Model</h3>
+            <p class="task-meta"><i class="far fa-clock"></i> Due: 2026.03.30 23:59</p>
+            <p style="margin-top: 1rem;">
+                Write an essay about your role model including the following points:
+            <ul style="margin: 0.5rem 0 0.5rem 1.5rem;">
+                <li>Who they are and why you chose them.</li>
+                <li>What they have achieved.</li>
+                <li>How they influenced your life.</li>
+            </ul>
+            </p>
+            <a href="#"
+                style="background: var(--primary); color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; display: inline-block; margin-top: 1rem;">
+                Submit Assignment
+            </a>
+        </div>
+
+        <div class="task-card" style="border-left-color: #9E9E9E; opacity: 0.8;">
+            <span class="status-badge status-closed">Closed</span>
+            <h3>Vocabulary Workbook Unit 1-2</h3>
+            <p class="task-meta"><i class="far fa-clock"></i> Due: 2026.03.10 09:00</p>
+            <p style="margin-top: 1rem;">Complete the exercises for Unit 1 and 2 in your workbook.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Hwanil High School - Grade 2 English | Teacher: Hong Jeong-hye</p>
+    </footer>
+
+</body>
+
+</html>
